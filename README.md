@@ -14,6 +14,7 @@ trials: total number of trials.
 probability_s: probability of success on each trial. cumulative: TRUE
  returns the cumulative probability; FALSE returns the exact probability
 https://1drv.ms/x/c/ff30b5fe74a8fe1a/EXOiGejS3v5PgdwgVgnJMXABThXQ0V14P-D311He_iYtsA?e=6U74Ux
+
 # 2. Plotting and fitting of Multinomial distribution and graphical representation of probabilities.
 # Multinomial Distribution
 The multinomial distribution is a multivariate generalization of the binomial distribution. Consider a trial that results in exactly one of some
@@ -28,6 +29,7 @@ and success probability pi
  Multinomial MULTINOMIAL(X1,X2,X3)
  Probability = MULTINOMIAL PRODUCT(p1^X1,p2^X2,p3^X3)
  https://1drv.ms/x/c/ff30b5fe74a8fe1a/EQYEnI3nw5dDtAr11LD1tzYBEyo8LllM7doTxpjpI7dLDg?e=cuAODB
+ 
  # 3. Plotting and fitting of Poisson distribution and graphical representation of probabilities.
  # Poisson Distribution
  The Poisson distribution is a type of discrete probability distribution that determines the likelihood of an event occurring a specific number of times
@@ -39,6 +41,7 @@ and success probability pi
  POISSON.DIST(number_s,average,cumulative)
  POISSON.DIST(k, λ ,FALSE)
  https://1drv.ms/x/c/ff30b5fe74a8fe1a/EbbT6XO4m8lEuz7AmrFK6OIBx0exi0aDJfEyBH200ZREJw?e=t9b93K
+ 
  # 4. Plotting and fitting of Geometric distribution and graphical representation of probabilities.
  # Geometric Distribution
  A geometric distribution is a discrete probability distribution that indicates the likelihood of achieving one's first success after a series of

@@ -98,14 +98,43 @@ https://1drv.ms/x/c/ff30b5fe74a8fe1a/EbgF17d5mNRJlwvHYB-0WTkBHInRJGoK_-RnKyErphE
 https://1drv.ms/x/c/ff30b5fe74a8fe1a/EbK17Rl7__RGu-0e7TFJhO4BpK95P_1KS4K7XshiBAqZ7w?e=eGps8T
 # 11. Application problems based on the Poisson distribution.
  Ques: In a cafe, the customer arrives at a mean rate of 2 per min. Find the probability of arrival of 5 customers in 1 minute using the Poisson distribution formula.
- 
-
-
-
-
-
-
-
-
-
-
+ https://1drv.ms/x/c/ff30b5fe74a8fe1a/Ee3Q8Zh6Z6pHrXRjRJ_wedEB3OM3yw_4QC_5exHWl6w_AA?e=WAO9hD
+# 12. Application problems based on the Normal distribution.
+Ques:: According to the website of the American Association for Justice, ^11 Stella Liebeck of Albuquerque, New Mexico, was severely burned by McDonald's coffee in February 1992. Liebeck, who received third-degree bums over 6 percent of her body, was awarded $160,000 in compensatory damages and $480,000 in punitive damages. A post-verdict investigation revealed that the coffee temperature at the local Albuquerque McDonald's had dropped from about 185 degree F before the trial to about 158 degree after the trial. This case concerns coffee temperatures at a fast-food restaurant. Because of the possibility of future litigation and to possibly improve the coffee's taste, the restaurant wishes to study the temperature of the coffee it serves. To do this, the restaurant personnel measure the temperature of the coffee being dispensed (in degrees Fahrenheit) at a randomly selected time during each of the 24 half-hour periods from 8 a.m. to 7:30 p.m on a given day. This is then repeated on a second day, giving the
+ 48 coffee temperatures in excel.
+https://1drv.ms/x/c/ff30b5fe74a8fe1a/Eb9FJz7twIpDjT3gviUTuqUBG6cTpp-UMkLf6EdPX-uGsQ?e=UjVpQl
+# 13. Presentation of bivariate data through scatter-plot diagrams and calculations of covariance.
+ Bivariate Data/ Bivariate Analysis
+ Bivariate analysis is one of the statistical analysis where two variables are observed. One variable here is dependent while the other is independent. These variables are usually denoted by X and Y. So, here we analyse the changes occurred between the two variables and to what extent
+ how to implement in excel
+ = COVARIANCE.P(array1,array2)
+ The COVARIANCE.P function used the following arguments array 1, this is
+ range or array of integer value.
+# Pearson Correlation Coefficient formula
+<img width="326" alt="image" src="https://github.com/user-attachments/assets/bf9181ad-a74a-4341-928b-ef28311aa374" />
+ CORRELATION in excel and COVARIANCE in excel 
+= CORREL(hours,score)
+ = COVARIANCE.P(hours, score)
+https://1drv.ms/x/c/ff30b5fe74a8fe1a/EeosKuDIqGhFncVNmv6YTFsB5_Vxs5btnT-pPXoBJfgEgQ?e=ZXE3uR
+# 14. Calculation of Karl Pearson's correlation coefficients.
+https://1drv.ms/x/c/ff30b5fe74a8fe1a/EWlbr47WdrVMjAdO1LGhTwIBZFbDicb7peIdPiz0ZfWXuw?e=39g2kX
+#  15. To find the correlation coefficient for a bivariate frequency distribution.
+https://1drv.ms/x/c/ff30b5fe74a8fe1a/EVnLxgJnNudHuefpwJ_kDr8B-E2KvU6u5EOlImp4G2nbMg?e=TFTZhK
+# 16. Generating Random numbers from discrete (Bernoulli, Binomial, Poisson) distributions.
+ How to implement in excel
+ = BINOM.INV (1,P, RAND()) will generate 1 or 0 with chance of 1 being P random number
+https://1drv.ms/x/c/ff30b5fe74a8fe1a/ESp6cQFs5ZpPlKrnBLqWXBwBQgmxEvccMYUSqeQOYd6UXQ?e=eRUDNa
+# 17. Generating Random numbers from continuous (Uniform, Normal) distributions.
+ = NORMINV(RAND(),B2,C2)
+ Where this RAND() function create your probability. B2 provides you mean,
+ C2 refers your standand deviation.
+https://1drv.ms/x/c/ff30b5fe74a8fe1a/EZAzWsQcD3dHpSuIyA9ISBgB3G_NxXI9mmtx1aL5ffI8gw?e=4B82bA
+#  18. Find the entropy from the given data set.
+ The entropy of a random variable is the average level of information, surprise, or uncertainly inherent to the variable's possible outcomes. Given a discrete random random variable X which takes value in the alphabet x and distributed according to the P: x [0, 1] The entropy is H[X]
+<img width="226" alt="image" src="https://github.com/user-attachments/assets/23b7208c-8f49-4c06-94b3-35fe823718ae" />
+ The choice of base for log varies for different applications.
+ Base 2 gives the unit of bits while base e gives natural units.
+ Base o gives the units of H(X)
+ An equivalent definition of entropy is the expected value of the self
+ information of a variable.
+https://1drv.ms/x/c/ff30b5fe74a8fe1a/EQtFVSHPV-ZOnN_JmiKglKwBPK0DUTXmlgWekRucsj5ajQ?e=eG6dbf

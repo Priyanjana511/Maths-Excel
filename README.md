@@ -51,6 +51,7 @@ and success probability pi
  how to implement in excel
  Probability = (1-p)^k*p
  https://1drv.ms/x/c/ff30b5fe74a8fe1a/Ed1OGvnF6idAhZyyTLh_huMBkd2b9vtVq0wGsi-RwP4ZuA?e=mtKk2i
+ 
  #  5. Plotting and fitting of Uniform distribution and graphical representation of probabilities.
  # Uniform distribution Formula
 A uniform distribution is a distribution that has constant probability due to equally likely occurring events. It is also known as rectangular distribution (continuous uniform distribution). It has two parameters a and b: a = minimum and maximum. The distribution is written as U(a, b) b = A uniform distribution is a type of probability distribution where every possible outcome has an equal probability of occurring. This means that all values within a given range are equally likely to be observed.
@@ -59,6 +60,7 @@ A uniform distribution is a distribution that has constant probability due to eq
 how to implement in excel
  P = (x - x ) / (b - a)
  https://1drv.ms/x/c/ff30b5fe74a8fe1a/EQ7x_Jgb2u5BrYoDYNVQ7LEBycseN6-6J4G72lMIR8X4cw?e=AU7Ieb
+ 
  # 6. Plotting and fitting of Exponential distribution and graphical representation of probabilities.
 # Exponential Distribution
  If the probability of the event happening in a given interval is proportional to the length of the interval, then the Random Variable has an exponential distribution. The
@@ -70,6 +72,7 @@ how to implement in excel
  EXPON.DIST(X,lambda,cumulative)
  EXPON.DIST (X,lambda, FALSE)
 https://1drv.ms/x/c/ff30b5fe74a8fe1a/ERyGWN6cp0FHshI7mz9vh5sB4hAme3QeJ2xwG0sDFQid4A?e=iTH7PD
+
 # 7. Plotting and fitting of Normal distribution and graphical representation of probabilities.
 # Normal Distribution
 We define Normal Distribution as the probability density function of any continuous random variable for any given system. Now for defining Normal Distribution suppose we take f(x) as the probability density function for any random variable X
@@ -87,8 +90,10 @@ how to implement in excel
 NORM.DIST(x, mean, standard deviation cumulative)
  NORM.DIST(x, mean, standard deviation, FALSE)
 https://1drv.ms/x/c/ff30b5fe74a8fe1a/EfWr_MigrwdNouqIw1_Qjc8BfQG63V4aLAm1DB-VBR27cw?e=JlSCet
+
 # 8.Calculation of Cumulative Distribution Functions for Exponential and Normal Distributions
 https://1drv.ms/x/c/ff30b5fe74a8fe1a/EfI5_ks-vT9AjZHh9Jiyun4B0b1on5Nykbg6yy2ea9AGHA?e=PbRlKO
+
 # 9. Given data from two distributions, find the distance between the distributions.
 #  Euclidean distance
  Euclidean distance is the distance between two real distinct value.It is calculate by the square root of the sum of the squared difference elements in two vectors
@@ -96,16 +101,20 @@ https://1drv.ms/x/c/ff30b5fe74a8fe1a/EfI5_ks-vT9AjZHh9Jiyun4B0b1on5Nykbg6yy2ea9A
  how to implement in excel
  = SORT(SUM X MYZ(array_X, array_Y))
 https://1drv.ms/x/c/ff30b5fe74a8fe1a/EbgF17d5mNRJlwvHYB-0WTkBHInRJGoK_-RnKyErphEMKg?e=mjOE6h
+
 # 10. Application problems based on the Binomial distribution.
  Ques: Antibiotics occasionally cause nausea as a side effect. A major drug company has developed a new antibiotic called Phe-Mycin. The company claims that, at most, 10 percent of all patients treated with Phe-Mycin would experience nausea as a side effect of taking the drug. Suppose that we randomly select n = 4 patients and treat them with Phe-Mycin. Each patient will either experience nausea (which we arbitrarily call a success) or will not experience nausea (a failure). We will assume that p, the true probability that a patient will experience nausea as a side effect, is.10, the maximum value of p claimed by the drug company. Furthermore, it is reasonable to assume that patients' reactions to the drug would be independent of each other. Let x denote the number of patients among the four who will experience nausea as a side effect. It follows that x is a binomial random variable, which can take on any of the potential values 0, 1, 2, 3, or 4. That is, anywhere between none of the patients and all four of the patients could potentially experience nausea as a side effectSuppose that we wish to investigate whether p, the probability that a patient will experience nausea as a side effect of taking Phe-Mycin, is greater than. 10, the maximum value of p claimed by the drug company. This assessment will be made by assuming, for the sake of argument, that p equals .10, and by using sample information to weigh the evidence against this assumption and in favor of the conclusion that p is greater than.10. Suppose that when a sample of n=4 randomly selected patients is treated with Phe Mycin, three of the four patients experience nausea. Because the fraction of patients in the sample that experience nausea is 3/4.75, which is far greater than .10, we have some evidence contradicting the assumption that p equals.10
 https://1drv.ms/x/c/ff30b5fe74a8fe1a/EbK17Rl7__RGu-0e7TFJhO4BpK95P_1KS4K7XshiBAqZ7w?e=eGps8T
+
 # 11. Application problems based on the Poisson distribution.
  Ques: In a cafe, the customer arrives at a mean rate of 2 per min. Find the probability of arrival of 5 customers in 1 minute using the Poisson distribution formula.
  https://1drv.ms/x/c/ff30b5fe74a8fe1a/Ee3Q8Zh6Z6pHrXRjRJ_wedEB3OM3yw_4QC_5exHWl6w_AA?e=WAO9hD
+ 
 # 12. Application problems based on the Normal distribution.
 Ques:: According to the website of the American Association for Justice, ^11 Stella Liebeck of Albuquerque, New Mexico, was severely burned by McDonald's coffee in February 1992. Liebeck, who received third-degree bums over 6 percent of her body, was awarded $160,000 in compensatory damages and $480,000 in punitive damages. A post-verdict investigation revealed that the coffee temperature at the local Albuquerque McDonald's had dropped from about 185 degree F before the trial to about 158 degree after the trial. This case concerns coffee temperatures at a fast-food restaurant. Because of the possibility of future litigation and to possibly improve the coffee's taste, the restaurant wishes to study the temperature of the coffee it serves. To do this, the restaurant personnel measure the temperature of the coffee being dispensed (in degrees Fahrenheit) at a randomly selected time during each of the 24 half-hour periods from 8 a.m. to 7:30 p.m on a given day. This is then repeated on a second day, giving the
  48 coffee temperatures in excel.
 https://1drv.ms/x/c/ff30b5fe74a8fe1a/Eb9FJz7twIpDjT3gviUTuqUBG6cTpp-UMkLf6EdPX-uGsQ?e=UjVpQl
+
 # 13. Presentation of bivariate data through scatter-plot diagrams and calculations of covariance.
  Bivariate Data/ Bivariate Analysis
  Bivariate analysis is one of the statistical analysis where two variables are observed. One variable here is dependent while the other is independent. These variables are usually denoted by X and Y. So, here we analyse the changes occurred between the two variables and to what extent
@@ -119,19 +128,23 @@ https://1drv.ms/x/c/ff30b5fe74a8fe1a/Eb9FJz7twIpDjT3gviUTuqUBG6cTpp-UMkLf6EdPX-u
 = CORREL(hours,score)
  = COVARIANCE.P(hours, score)
 https://1drv.ms/x/c/ff30b5fe74a8fe1a/EeosKuDIqGhFncVNmv6YTFsB5_Vxs5btnT-pPXoBJfgEgQ?e=ZXE3uR
+
 # 14. Calculation of Karl Pearson's correlation coefficients.
 https://1drv.ms/x/c/ff30b5fe74a8fe1a/EWlbr47WdrVMjAdO1LGhTwIBZFbDicb7peIdPiz0ZfWXuw?e=39g2kX
+
 #  15. To find the correlation coefficient for a bivariate frequency distribution.
 https://1drv.ms/x/c/ff30b5fe74a8fe1a/EVnLxgJnNudHuefpwJ_kDr8B-E2KvU6u5EOlImp4G2nbMg?e=TFTZhK
 # 16. Generating Random numbers from discrete (Bernoulli, Binomial, Poisson) distributions.
  How to implement in excel
  = BINOM.INV (1,P, RAND()) will generate 1 or 0 with chance of 1 being P random number
 https://1drv.ms/x/c/ff30b5fe74a8fe1a/ESp6cQFs5ZpPlKrnBLqWXBwBQgmxEvccMYUSqeQOYd6UXQ?e=eRUDNa
+
 # 17. Generating Random numbers from continuous (Uniform, Normal) distributions.
  = NORMINV(RAND(),B2,C2)
  Where this RAND() function create your probability. B2 provides you mean,
  C2 refers your standand deviation.
 https://1drv.ms/x/c/ff30b5fe74a8fe1a/EZAzWsQcD3dHpSuIyA9ISBgB3G_NxXI9mmtx1aL5ffI8gw?e=4B82bA
+
 #  18. Find the entropy from the given data set.
  The entropy of a random variable is the average level of information, surprise, or uncertainly inherent to the variable's possible outcomes. Given a discrete random random variable X which takes value in the alphabet x and distributed according to the P: x [0, 1] The entropy is H[X]
 <img width="226" alt="image" src="https://github.com/user-attachments/assets/23b7208c-8f49-4c06-94b3-35fe823718ae" />
